@@ -20,3 +20,4 @@ notes.txt
 *.webm
 googleapp.py
 _*.py
+.vscode
