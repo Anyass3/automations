@@ -1,5 +1,5 @@
 ##
-## Simple video editor actually 
+## Simplest video editor actually 
 ##
 
 import os
@@ -151,6 +151,10 @@ def trim_video(equal_len=False):
     t2 = time.perf_counter()
     print(f'It took {t2-t1} secs to completed')
 
+
+#use_ffmpeg for faster convertion 
+#large video files will be slow so use it
+#it should be installed if not installed already
 def convert_video(path, from_ext=None, to_ext='mp4', use_ffmpeg=False):
     if os.path.isdir(path):
         folder = input('input file name: ')
@@ -192,3 +196,6 @@ def count_audiolen(path):
     for s in suras:
         a+=s
     print(a)
+
+#my recommended way of run the :
+#python3 -i -m vid_edit

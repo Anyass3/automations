@@ -1,3 +1,5 @@
+#A selenium.webdriver test on loalhost
+
 from mywebdriver import Chrome, webdriver
 from check import confirm, ShortenName
 from t import paragraph, sentence

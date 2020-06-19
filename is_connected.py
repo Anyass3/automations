@@ -4,8 +4,15 @@ from datetime import datetime as dt
 import requests
 from urllib.request import urlopen
 from mywebdriver import Chrome, webdriver
+'''
+this is will be repeated checking whether or not my wifi is connected and it will automatically
+log me in it is not logged in 
+using selenium webdriver
+with this script i will not worry about loging in to my wifi
+'''
+
 def isconnected():
-    ##################
+    ##################c
     try:
         ## this will check if there is connection to a network
         urlopen('http://216.58.192.142', timeout=1)
