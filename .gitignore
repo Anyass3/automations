@@ -20,6 +20,6 @@ notes.txt
 *.mp4
 *.webm
 googleapp.py
-*/_youtube*.py
+*/_youtube.py
 .vscode
 */.vscode
