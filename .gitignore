@@ -1,6 +1,7 @@
 auto
 desktop_cleaner
 files
+*/__pycache__
 trimmed_files
 __init__.py
 check.py
@@ -19,5 +20,5 @@ notes.txt
 *.mp4
 *.webm
 googleapp.py
-_*.py
+*/_youtube*.py
 .vscode
