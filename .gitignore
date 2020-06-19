@@ -19,3 +19,4 @@ notes.txt
 *.mp4
 *.webm
 googleapp.py
+_*.py
