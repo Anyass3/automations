@@ -12,6 +12,12 @@ import google_auth_oauthlib
 from pytube import YouTube
 from concurrent.futures import ThreadPoolExecutor as thread
 
+'''
+doing some walkout with the google API
+you will need a client_secrets or client_secrets_file
+from the google API documentation
+'''
+
 # -*- coding: utf-8 -*-
 import os
 
