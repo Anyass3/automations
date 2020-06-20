@@ -3,7 +3,7 @@ import json
 import random
 from itertools import chain#from_iterable
 '''
-this is just ti help me automate adding users to and user post to my website
+this is just to help me automate adding users and user post to my website
 '''
 path = '/home/abdullah/Projects/automation/'
 file = open(path + 'notes.txt')
@@ -14,7 +14,7 @@ note[0]=' '.join(splitted)
 #print(note)
 file.close()
 with open(path+'data/f_names.json', encoding='utf-8') as f:
-    f_names=json.loads(f.read())
+    f_names=json.loads(f.read())from automation 
 with open(path+'data/l_names.json', encoding='utf-8') as f:
     l_names=json.loads(f.read())
 def paragraph(num=None):
