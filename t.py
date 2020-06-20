@@ -2,7 +2,9 @@ import string as s
 import json
 import random
 from itertools import chain#from_iterable
-
+'''
+this is just ti help me automate adding users to and user post to my website
+'''
 path = '/home/abdullah/Projects/automation/'
 file = open(path + 'notes.txt')
 note=list(file)
