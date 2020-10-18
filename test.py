@@ -8,7 +8,7 @@ driver = Chrome()
 amail = 'nyassabu@gmail.com'
 apass = 'nyassabu'
 email = 'testing14145@gmail.com'
-pwd = '@Testing14145'
+pwd = os.getenv("TESTING_PASS")
 role = 'Association'
 
 
