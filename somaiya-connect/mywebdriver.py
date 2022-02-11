@@ -2,6 +2,11 @@
 from selenium.webdriver import Firefox, Chrome
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def webdriver(chrome=True, andriod=False):
     options = Options()
@@ -17,6 +22,6 @@ def webdriver(chrome=True, andriod=False):
         options.add_argument('--disable-extensions')
         options.add_argument('--disable-infobars')
     if chrome:
-        Chrome(executable_path='/usr/local/bin/chromedriver', options=options)
+        Chrome(executable_path=os.environ.get('DRIVER'), options=options)
     else:
-        Firefox(executable_path='/home/abdullah/Downloads/other2/geckodriver')
+        Firefox(executable_path=os.environ.get('DRIVER'))

@@ -23,3 +23,7 @@ googleapp.py
 */_youtube.py
 .vscode
 */.vscode
+env
+.env
+.somaiya-logs
+__pycache__/
