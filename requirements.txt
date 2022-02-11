@@ -25,7 +25,7 @@ pylint==2.6.0
 pytube==10.5.3
 pytz==2020.1
 requests==2.23.0
-rsa==4.2
+rsa==4.7
 six==1.15.0
 toml==0.10.2
 tqdm==4.46.1
